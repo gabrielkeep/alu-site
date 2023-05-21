@@ -47,21 +47,61 @@
     font-family: 'Inter', sans-serif;
 }
 
-
-/* RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ-RODAPÉ */
-.rodape{
-    display: flex;
-    justify-content: space-around;
-}
-
-.links{
-    height: 10px;
-    width: 10px;
-}
-
-.rodape__link{
+/* MAIN */
+.categorias{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+.categorias__caixas{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+}
+.caixa{
+    width: 500px;
+    height: 500px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+.mais_vistos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.mais_vistos__itens{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 20px;
+}
+
+.item{
+    width: 300px;
+    height: 270px;
+    background-color: #333333;   
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
 }
