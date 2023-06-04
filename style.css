@@ -65,8 +65,8 @@
     padding: 10px;
 }
 .caixa{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: #333333;
     display: flex;
     justify-content: center;
@@ -97,8 +97,8 @@
 }
 
 .item{
-    width: 300px;
-    height: 270px;
+    width: 200px;
+    height: 200px;
     background-color: #333333;   
     border-radius: 20px; 
     display: flex;
@@ -161,8 +161,8 @@
     justify-content: space-around;
     align-items: flex-start;
     padding: 100px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
     background-color: white;
     row-gap: 50px;
     padding-bottom: 10px;
@@ -203,6 +203,8 @@ PRODUTO PRODUTO PRODUTO PRODUTO */
 
 .produto__imagem__main{
     border-radius: 30px;
+    width: 50%;
+    height: 100%;
 }
 
 .produto__info{
@@ -214,11 +216,11 @@ PRODUTO PRODUTO PRODUTO PRODUTO */
 }
 
 .produto__info__sobre{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
 .produto__info__price{
-    font-size: 30px;
+    font-size: 23px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -272,6 +274,6 @@ PRODUTO PRODUTO PRODUTO PRODUTO */
 
 .alugar_produto__nome{
     font-family: 'Inter', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 2%;
 }
